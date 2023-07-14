@@ -1,0 +1,13 @@
+listen_address: ":8000"
+
+# mysql database config
+database:
+  mysql:
+    host: localhost
+    port: "3306"
+    user: dev
+    password: uvxUpph4K6
+    dbname: auth_svc
+    mysqldebug:
+        enabled: true
+        verbose: true
